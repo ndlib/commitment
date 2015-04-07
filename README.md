@@ -1,8 +1,17 @@
 # Commitment
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/commitment`. To experiment with that code, run `bin/console` for an interactive prompt.
+Commitment is a work in progress.
 
-TODO: Delete this and the text above, and describe your gem
+The goal of Commitment is to consolidate common tasks that we use to uphold our
+software development commitment:
+
+* Code coverage
+* Programatic style enforcement
+* Vulnerability scans
+* Linting
+
+As we have worked on our code, we have adheared to monitoring the above items.
+If they dip below a threshold, the build is broken.
 
 ## Installation
 

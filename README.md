@@ -39,3 +39,7 @@ Other files will be updated so that Commitment can do its job.
 
 The `$ rails generate commitment:install` will report as output all files that were changed or updated.
 If you started with a clean work area, you can use your version control tools to see what changes were made.
+
+## Roadmap
+
+The Commitment gem presently does not make its own commitments. I'd like to fix that.

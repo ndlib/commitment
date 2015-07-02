@@ -29,7 +29,7 @@ task(
     'commitment:rubocop',
     'commitment:jshint',
     'commitment:scss_lint',
-    'commitment:configure_test_for_code_coverage'
+    'commitment:configure_test_for_code_coverage',
     '#{test_framework}',
     'commitment:code_coverage',
     'commitment:brakeman'

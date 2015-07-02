@@ -16,7 +16,10 @@ If we fail to do so, the build is broken.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Before you get started, make sure all of your project changes are committed.
+Commitment doesn't change too many things, but its nice to "install" something into a clean work area.
+
+Now, add this line to your application's Gemfile:
 
 ```ruby
 group :development, :test do
@@ -24,7 +27,7 @@ group :development, :test do
 end
 ```
 
-And then execute:
+And then go to your console and `cd` into the project. You'll run the following two commands:
 
 ```console
 $ bundle
@@ -32,3 +35,7 @@ $ rails generate commitment:install
 ```
 
 Several files will be added to your project. These are configuration files for the underlying tasks that will be run.
+Other files will be updated so that Commitment can do its job.
+
+The `$ rails generate commitment:install` will report as output all files that were changed or updated.
+If you started with a clean work area, you can use your version control tools to see what changes were made.

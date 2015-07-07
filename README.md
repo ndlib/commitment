@@ -43,3 +43,8 @@ If you started with a clean work area, you can use your version control tools to
 ## Roadmap
 
 The Commitment gem presently does not make its own commitments. I'd like to fix that.
+
+Other Items:
+
+* Add `build-multi-commit-message` script to help with pull requests
+* Add scripts to help build consistent identifiers (as per Sipity and CurateND)

@@ -48,3 +48,4 @@ Other Items:
 
 * Add `build-multi-commit-message` script to help with pull requests
 * Add scripts to help build consistent identifiers (as per Sipity and CurateND)
+* Add [license_finder](https://github.com/pivotal/LicenseFinder) as part of the build process

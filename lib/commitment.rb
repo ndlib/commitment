@@ -42,7 +42,10 @@ module Commitment
     attr_reader :project_pathname
 
     def default_project_pathname
-      if defined?(Rails)
+      if ENV.key?('PROJECT_PATHNAME')
+        require 'pathname'
+        Pathname.new(ENV['PROJECT_PATHNAME'])
+      elsif defined?(Rails)
         Rails.root
       else
         require 'pathname'

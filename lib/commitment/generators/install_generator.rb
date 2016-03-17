@@ -14,6 +14,10 @@ module Commitment
       template('.scss_lint.yml', '.scss_lint.yml')
     end
 
+    def create_fasterer
+      template('.fasterer.yml', '.fasterer.yml')
+    end
+
     def create_coverage_helper
       # Putting this file in the root directory of the project
       template('coverage_helper.rb', "#{test_framework}/coverage_helper.rb")
@@ -28,6 +32,7 @@ task(
   default: [
     'commitment:rubocop',
     'commitment:jshint',
+    'commitment:fasterer',
     'commitment:scss_lint',
     'commitment:configure_test_for_code_coverage',
     '#{test_framework}',

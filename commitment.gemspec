@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "simplecov"
   spec.add_dependency "jshintrb"
   spec.add_dependency "codeclimate-test-reporter"
+  spec.add_dependency "fasterer"
 end

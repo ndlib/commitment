@@ -7,6 +7,7 @@ module Commitment
       load 'commitment/tasks/jshint.rake'
       load 'commitment/tasks/scss_lint.rake'
       load 'commitment/tasks/code_coverage.rake'
+      load 'commitment/tasks/fasterer.rake'
     end
 
     generators do

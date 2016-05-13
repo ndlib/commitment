@@ -14,7 +14,7 @@ module Commitment
     attr_reader :jshint_exclude_pattern
     attr_reader :jshint_options
     attr_reader :scss_lint_config
-    attr_reader :percentage_coverage_goal
+    attr_accessor :percentage_coverage_goal
     attr_reader :code_coverage_last_run_pathname
 
     def initialize

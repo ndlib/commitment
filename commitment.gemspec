@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop"
   spec.add_dependency "railties"
   spec.add_dependency "brakeman"
-  spec.add_dependency "scss-lint"
+  spec.add_dependency "scss_lint"
   spec.add_dependency "simplecov"
   spec.add_dependency "jshintrb"
   spec.add_dependency "codeclimate-test-reporter"

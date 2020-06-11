@@ -6,8 +6,8 @@ require 'commitment/version'
 Gem::Specification.new do |spec|
   spec.name          = "commitment"
   spec.version       = Commitment::VERSION
-  spec.authors       = ["Jeremy Friesen"]
-  spec.email         = ["jeremy.n.friesen@gmail.com"]
+  spec.authors       = ["Jeremy Friesen", "LaRita Robinson"]
+  spec.email         = ["jeremy.n.friesen@gmail.com", "LaRita.Robinson@nd.edu"]
 
   spec.summary       = %q{Provides a mechanism for monitoring your enduring commitment.}
   spec.description   = %q{Provides a mechanism for monitoring your enduring commitment.}

@@ -1,4 +1,4 @@
-require 'minitest_helper'
+require_relative 'minitest_helper'
 require 'pathname'
 class TestCommitment < Minitest::Test
   def test_that_it_has_a_version_number
